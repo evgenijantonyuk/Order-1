@@ -356,6 +356,17 @@ textarea {
 }
 
 /* ================ sections =================*/
+.section__title-webinar {
+    margin-bottom: 15px;
+}
+
+.section__title-webinar p {
+    margin-bottom: 10px;
+}
+
+.modal__window {
+    padding-top: 100px;
+}
 
 .section {
     border-bottom: var(--border-bottom);
