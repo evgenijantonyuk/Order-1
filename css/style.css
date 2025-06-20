@@ -191,6 +191,7 @@ h1 {
 /* ================= mobile menu =================== */
 .header-mobile {
     text-align: center;
+    padding-bottom: 50px;
 }
 
 .list__link-mobile {
