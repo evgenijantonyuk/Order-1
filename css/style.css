@@ -189,10 +189,6 @@ h1 {
 }
 
 /* ================= mobile menu =================== */
-.header-mobile {
-    text-align: center;
-    padding-bottom: 50px;
-}
 
 .list__link-mobile {
     -webkit-transition: color 0.3s;
@@ -220,6 +216,8 @@ h1 {
 }
 
 .header-mobile {
+    text-align: center;
+    padding-bottom: 50px;
     width: 100%;
     display: none;
     position: absolute;
