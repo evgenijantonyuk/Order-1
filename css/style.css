@@ -3,6 +3,7 @@
     --color-red: #fa0101;
     --color-white: #fff;
     --text-size: 16px;
+    --title-text-size: 20px;
     --border-bottom: 1px solid rgba(248, 5, 5, 0.51);
 }
 
@@ -143,6 +144,12 @@ p {
 }
 
 /* webinar */
+h1 {
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 25px;
+}
+
 .webinar {
     display: flex;
     align-items: center;
@@ -154,9 +161,14 @@ p {
     margin-right: 45px;
 }
 
+.section__title-webinar_red {
+    color: var(--color-red);
+}
+
 .section__title_red {
     display: inline-block;
     color: var(--color-red);
+    font-size: var(--title-text-size);
 }
 
 /* ================= mobile menu =================== */
@@ -188,7 +200,13 @@ p {
 }
 
 .header-mobile {
+    width: 100%;
     display: none;
+    position: absolute;
+    padding-top: 40px;
+    top: 0;
+    left: 0;
+    background-color: var(--bg-color);
 }
 
 .list-mobile {
@@ -380,7 +398,7 @@ textarea {
 .section__title {
     text-transform: uppercase;
     width: 100%;
-    max-width: 500px;
+    /*max-width: 500px;*/
     margin-bottom: 15px;
     text-align: center;
 }
@@ -450,9 +468,21 @@ textarea {
             flex-direction: column-reverse;
         }
 
+
+        .section__value img:nth-child(even) {
+            width: 50%;
+            object-fit: cover;
+            margin: 0 0 25px 0;
+        }
+
+        .section__value img:nth-child(odd) {
+            width: 50%;
+            object-fit: cover;
+            margin: 0 0 25px 0;
+        }
+
         img {
             width: 100%;
-            margin-bottom: 25px;
         }
 
         h1 {
