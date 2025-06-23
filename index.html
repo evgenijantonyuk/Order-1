@@ -83,20 +83,25 @@
 				<div class="modal">
 					<div class="modal__main">
 						<h2 class="modal__title">Регистрация</h2>
-						<form class="modal__container">
+						
+						<form action="./send.php" method="post" class="modal__container" >
+							
 							<label>
-								<input placeholder="Ваше имя" type="text">
+								<input placeholder="Ваше имя" type="text" name="name">
 							</label>
 							<label for="text">
 								<textarea placeholder="Текст сообщения" name="text" id="text" cols="30"
 								          rows="5"></textarea>
 							</label>
 							<label>
-								<input placeholder="Ваш E-mail" type="email">
+								<input placeholder="Ваш E-mail" type="email" name="email">
 							</label>
 							<label>
-								<input placeholder="Пароль" type="password">
+								<input placeholder="Пароль" type="password" name="password">
 							</label>
+							
+							<input type="submit" value="Регистрация" class="btn" name="send">
+							
 						</form>
 						<button class="modal__close">&#10006;</button>
 					</div>

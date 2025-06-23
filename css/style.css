@@ -419,6 +419,20 @@ textarea {
     width: 100%;
 }
 
+.btn {
+    padding: 1rem 3rem;
+    border-radius: 1.5rem;
+    background-color: #fff;
+    font-weight: 800;
+    cursor:  pointer;
+    transition:  0.3s;
+}
+
+.btn:hover {
+    background-color: #fa4602;
+    color: #fff;
+}
+
 /* ================ sections =================*/
 .section__title-webinar {
     margin-bottom: 15px;
