@@ -19,7 +19,7 @@
             $email = trim($email)
             $password = trim($password)
 
-            if(mail("evgenijantonyuk@gmail.com",
+            if(mail("example@mail.com", // адрес куда приходят сообщения с сайта
             "Новон письмо с сайта",
             "Логин: " $name "\n"
             "Текст письма: " $text "\n"
